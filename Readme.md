@@ -16,8 +16,11 @@ DemoGif
     CCCoinIncomeCell *cell = [[CCCoinIncomeCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
     
     CCCoinIncom *item = self.titles[indexPath.row];
+    
     cell.coinIncom = item;
+    
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    
     return cell;
 }
 
@@ -25,7 +28,8 @@ DemoGif
 
 //实现代理方法
 
-
 -(void)didSelectAutoScrollView {
+
     NSLog(@"1");
+    
 }
