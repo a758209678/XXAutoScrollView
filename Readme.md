@@ -17,6 +17,7 @@ DemoGif
 }
 
 //实现代理方法
+
 -(void)didSelectAutoScrollView {
     NSLog(@"1");
 }
