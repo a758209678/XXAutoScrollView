@@ -11,7 +11,7 @@ DemoGif
 
 //这里替换成你想滚动的cell
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     CCCoinIncomeCell *cell = [[CCCoinIncomeCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
     
